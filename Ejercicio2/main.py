@@ -16,6 +16,7 @@ def main():
 
         if opcion == "1":
             juego.Ordenar()
+            
         elif opcion == "2":
             juego.salir()
             valor=False

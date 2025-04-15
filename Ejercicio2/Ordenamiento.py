@@ -2,13 +2,12 @@ class Orden:
     def __init__(self, nombre_jugador):
       
         self.nombre_jugador = nombre_jugador
-        self.jugando = False
+        self.ejecutando = False
         self.lista_numeros = [10,77,44,80,9]
-
         self.numeros_ordenados = []
 
     def Ordenar(self):
-        self.jugando = True
+        self.ejecutando = True
         print(f"\n¡Bienvenido al juego, {self.nombre_jugador}!")
         print("El juego ha comenzado..")
 
